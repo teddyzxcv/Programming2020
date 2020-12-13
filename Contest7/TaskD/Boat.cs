@@ -2,14 +2,18 @@ using System;
 
 class Boat
 {
+    public bool IsAtThePort { get; set; }
+
+    public int Value { get; set; }
     public Boat(int value, bool isAtThePort)
     {
-        throw new NotImplementedException();
+        this.Value = value;
+        this.IsAtThePort = isAtThePort;
     }
 
     public int CountCost(int weight)
     {
-        throw new NotImplementedException();
+        return weight * this.Value;
     }
 }
 

@@ -1,0 +1,9 @@
+8
+Add user1
+Notify message1
+Add user2
+Notify message2
+Remove user1
+Notify message3
+Add user1
+Notify message4
